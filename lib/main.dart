@@ -81,7 +81,14 @@ class _MyHomePageState extends State<MyHomePage> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
-            Text("this is Feature1"),
+            const Text(
+              "this is Feature1",
+              style: TextStyle(
+                fontSize: 12,
+                color: Colors.red,
+                fontWeight: FontWeight.bold,
+              ),
+            ),
             const Text(
               'You have pushed the button this many times:',
             ),
